@@ -42,19 +42,19 @@ public class Account {
         this.dateCreated = dateCreated;
     }
 
-    public void setId(int id){
+    public void setId(int id) {
         this.id = id;
     }
 
-    public void setBalance(double balance){
+    public void setBalance(double balance) {
         this.getBalance() = balance;
     }
 
-    public void setAnnualInterestRate(double annualInterestRate){
+    public void setAnnualInterestRate(double annualInterestRate) {
         this.annualInterestRate = annualInterestRate;
     }
 
-    public void setDateCreated(){
+    public void setDateCreated() {
         Date dateCreated = new Date();
         this.dateCreated = dateCreated;
     }
