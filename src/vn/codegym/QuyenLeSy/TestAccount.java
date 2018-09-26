@@ -6,7 +6,10 @@ public class TestAccount {
     public static void main(String[] args) {
         Account account = new Account();
 
-        account.setter(1122, 20000, 4.5);
+        account.setId(1122);
+        account.setBalance(20000);
+        account.setAnnualInterestRate(4.5);
+        account.setDateCreated();
         account.withdraw(2500);
         account.deposit(3000);
 

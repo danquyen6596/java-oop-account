@@ -47,7 +47,7 @@ public class Account {
     }
 
     public void setBalance(double balance) {
-        this.getBalance() = balance;
+        this.balance = balance;
     }
 
     public void setAnnualInterestRate(double annualInterestRate) {
