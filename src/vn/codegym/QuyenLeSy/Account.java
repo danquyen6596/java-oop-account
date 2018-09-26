@@ -33,15 +33,6 @@ public class Account {
         return this.annualInterestRate;
     }
 
-
-    public void setter(int id, double balance, double annualInterestRate) {
-        Date dateCreated = new Date();
-        this.id = id;
-        this.balance = balance;
-        this.annualInterestRate = annualInterestRate;
-        this.dateCreated = dateCreated;
-    }
-
     public void setId(int id) {
         this.id = id;
     }
